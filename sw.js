@@ -1,8 +1,8 @@
 
 const PREFIX = "signage-shell-/setteville-display/";
 const BASE = "/setteville-display/";
-const SHELL = "signage-shell-/setteville-display/f019bec529780258";
-const ASSETS = ["/setteville-display/index.html","/setteville-display/assets/index-KJqV0CzI.js","/setteville-display/assets/index-_cv2RA4C.css"];
+const SHELL = "signage-shell-/setteville-display/5e8a8ee4902baf5c";
+const ASSETS = ["/setteville-display/index.html","/setteville-display/assets/index-BuGU5DPS.css","/setteville-display/assets/index-CYI3yxVv.js"];
 const MEDIA = "signage-media-v1:/setteville-display/";
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(SHELL).then(cache => cache.addAll(ASSETS)).then(() => self.skipWaiting()));
